@@ -1,0 +1,20 @@
+{
+  "NAME_OF_DATASET": {
+    "file_name": "PATH_TO_JSON_FILE",
+    "ranking": true,
+    "columns": {
+      "prompt": "instruction",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  },
+  "ANOTHER_NAME_OF_DATASET": {
+    "file_name": "PATH_TO_JSON_FILE",
+    "ranking": true,
+    "columns": {
+      "prompt": "instruction",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  }
+}

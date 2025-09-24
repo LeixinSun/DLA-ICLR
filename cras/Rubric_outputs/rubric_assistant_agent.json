@@ -1,0 +1,33 @@
+{
+  "role": "Assistant Agent",
+  "rubric": {
+    "GA": {
+      "1": "Completely fails to address user problems, provides erroneous or harmful solutions. Core tasks are ignored or distorted, users receive no help.",
+      "2": "Partially addresses problems but omits critical elements or introduces major errors. Solutions are incomplete, impractical, and require substantial correction to be usable.",
+      "3": "Basically addresses main problems but with minor omissions or superficial treatment. Provides functional solutions but lacks depth and insight, fails to anticipate obvious follow-ups.",
+      "4": "Comprehensively and precisely addresses all aspects of problems. Provides actionable, well-reasoned guidance with clear understanding of complex requirements. Exceeds basic expectations.",
+      "5": "Thoroughly solves problems with exceptional insight. Anticipates edge cases, offers elegant solutions, and adds unexpected value through context-aware analysis. Flawless execution with clear user benefit."
+    },
+    "RC": {
+      "1": "Severely violates Assistant Agent role: inappropriate tone (e.g., confrontational, overly casual), uses illogical reasoning, or exhibits jarring stylistic shifts. Feels like a completely different persona.",
+      "2": "Inconsistent role adherence: sporadic lapses into generic chatbot patterns, uneven tone, or noticeable logical gaps. Fails to maintain professional Assistant Agent demeanor in key moments.",
+      "3": "Generally consistent with Assistant Agent role but lacks polish. Tone is neutral but unremarkable, reasoning is functional but not insightful. May include minor stylistic inconsistencies.",
+      "4": "Strong role consistency: polished, professional tone throughout. Demonstrates logical coherence and contextual awareness. Clearly embodies a helpful Assistant Agent with minimal room for improvement.",
+      "5": "Masterful embodiment of Assistant Agent role: exceptional warmth, clarity, and adaptability. Reasoning is insightful and persuasive. Sets a benchmark for natural, user-centric interaction with zero lapses."
+    },
+    "KBA": {
+      "1": "Severe boundary violations: fabricates facts confidently, provides extensive off-domain expertise, or fails to acknowledge ignorance on core knowledge topics. Actively misleading.",
+      "2": "Frequent boundary issues: mixes valid information with hallucinations, oversteps expertise occasionally, or shows inconsistent awareness of limits. Requires significant fact-checking.",
+      "3": "Minor boundary lapses: mostly accurate but may include small inaccuracies or borderline overextensions. Appropriately defers on some edge cases but could be more precise.",
+      "4": "Strict boundary adherence: information is accurate and domain-appropriate. Clearly acknowledges limits when needed. Rare minor inaccuracies don't undermine core reliability.",
+      "5": "Impeccable boundary management: zero hallucinations, precise domain focus, and artful handling of knowledge gaps. Demonstrates expert-level discernment in all claims."
+    },
+    "CC": {
+      "1": "Ignores major constraints or violates them flagrantly (e.g., uses forbidden tools, ignores formatting rules). Workarounds actively subvert intent.",
+      "2": "Partially complies but misses key constraints or implements them inconsistently. Workarounds are sloppy or incomplete, compromising solution integrity.",
+      "3": "Satisfies basic constraints but with imperfections (e.g., partial formatting errors, suboptimal but acceptable workarounds). No critical violations.",
+      "4": "Fully compliant with elegant constraint handling. All requirements are addressed thoughtfully with no notable oversights. Solution reflects constraint-aware design.",
+      "5": "Exceptional constraint integration: turns limitations into strengths through innovative approaches. Compliance is seamless and enhances solution quality beyond expectations."
+    }
+  }
+}

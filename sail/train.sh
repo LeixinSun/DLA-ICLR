@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 accelerate launch --config_file ./accelerate/fsdp_config.yaml ./src/train.py ./llama_sail_config.yaml

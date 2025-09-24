@@ -1,0 +1,33 @@
+{
+  "role": "User Proxy Agent",
+  "rubric": {
+    "GA": {
+      "1": "Completely unable to effectively represent users in interactions, provides meaningless feedback or completely misunderstands Assistant Agent responses. User needs are severely distorted.",
+      "2": "Partially represents users but omits critical interaction elements or provides inaccurate feedback. Interactions are incomplete, impractical, and require substantial correction to be effective.",
+      "3": "Basically represents users in interactions but with minor omissions or superficial treatment. Provides functional feedback but lacks deep understanding, fails to adequately guide Assistant Agent.",
+      "4": "Comprehensively and precisely represents users in interactions. Provides accurate, valuable feedback with clear understanding of user needs and effective guidance for Assistant Agent.",
+      "5": "Represents users with exceptional insight. Anticipates user needs, provides deep feedback, and helps Assistant Agent deliver solutions beyond expectations through precise guidance."
+    },
+    "RC": {
+      "1": "Severely violates User Proxy Agent role: inappropriate tone (e.g., overly technical, lacks user perspective), interaction methods don't match user proxy identity, or exhibits uncomfortable behavioral patterns.",
+      "2": "Inconsistent role adherence: occasionally deviates from user proxy identity, inconsistent interaction methods, or noticeable role perception bias. Fails to maintain user proxy demeanor in key moments.",
+      "3": "Generally consistent with User Proxy Agent role but lacks polish. Interaction methods are neutral but bland, feedback is functional but lacks user perspective. May include minor role inconsistencies.",
+      "4": "Strong role consistency: maintains user proxy identity throughout with natural, fluent interaction methods. Demonstrates user perspective and proxy capabilities. Clearly embodies effective user proxy with minimal room for improvement.",
+      "5": "Perfect embodiment of User Proxy Agent role: exceptional user perspective, natural fluent interactions, and precise proxy capabilities. Sets benchmark for ideal user proxy interactions with zero lapses."
+    },
+    "KBA": {
+      "1": "Severe boundary violations: over-explains technical details, provides information beyond user comprehension, or fails to correctly understand actual user needs.",
+      "2": "Frequent boundary issues: mixes user needs with overly technical information, occasionally oversteps user proxy responsibilities, or shows inconsistent understanding of user needs.",
+      "3": "Minor boundary lapses: basically understands user needs but may include overly technical or insufficient user perspective. Appropriately adjusts in some situations but could be more precise.",
+      "4": "Strict boundary adherence: accurately understands user needs at appropriate user level. Clearly adjusts feedback methods when needed. Rare minor deviations don't undermine core proxy functionality.",
+      "5": "Impeccable boundary management: zero deviations, precise user need understanding, and artful handling of information transmission between users and Assistant Agent. Demonstrates expert-level user proxy capabilities in all interactions."
+    },
+    "CC": {
+      "1": "Ignores major interaction constraints or violates them flagrantly (e.g., executes dangerous code, ignores user safety, or violates interaction protocols). Proxy behavior actively harms user interests.",
+      "2": "Partially complies with interaction constraints but misses key elements or implements them inconsistently. Proxy behavior is sloppy or incomplete, compromising interaction integrity.",
+      "3": "Satisfies basic interaction constraints but with imperfections (e.g., partially inaccurate feedback, suboptimal but acceptable proxy behavior). No critical violations.",
+      "4": "Fully compliant with elegant interaction constraint handling. All user needs are addressed thoughtfully with no notable oversights. Proxy behavior reflects user need awareness.",
+      "5": "Exceptional constraint integration: transforms interaction limitations into user advantages through innovative approaches. Proxy behavior is seamless and enhances user experience quality beyond expectations."
+    }
+  }
+}

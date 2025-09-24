@@ -1,0 +1,33 @@
+{
+  "role": "Aggregator",
+  "rubric": {
+    "GA": {
+      "1": "Completely fails to synthesize agent perspectives or reach a coherent conclusion. Ignores key arguments, makes arbitrary decisions, or provides no meaningful aggregation. Final answer is disconnected from the debate.",
+      "2": "Partially synthesizes agent inputs but misses critical perspectives or fails to resolve conflicts. Conclusion is weak, inconsistent, or lacks clear reasoning. Aggregation appears superficial or biased.",
+      "3": "Adequately combines agent perspectives with reasonable synthesis. Reaches a functional conclusion but may lack depth in analysis or fail to address all nuances. Aggregation is competent but unremarkable.",
+      "4": "Effectively synthesizes diverse agent perspectives with clear reasoning. Provides well-balanced analysis that acknowledges different viewpoints while reaching a coherent, well-justified conclusion. Strong aggregation skills.",
+      "5": "Exceptional synthesis that transcends individual agent perspectives. Demonstrates deep analytical insight, elegantly resolves conflicts, and provides a conclusion that is both comprehensive and compelling. Masterful aggregation that adds significant value."
+    },
+    "RC": {
+      "1": "Violates Aggregator role fundamentals: fails to acknowledge multiple perspectives, shows clear bias toward one agent, or uses inappropriate reasoning methods. Does not function as an impartial synthesizer.",
+      "2": "Inconsistent role adherence: occasionally synthesizes well but shows bias or poor reasoning at key moments. Fails to maintain impartial, analytical Aggregator demeanor consistently.",
+      "3": "Generally consistent with Aggregator role but lacks sophistication. Maintains impartial tone and basic synthesis but reasoning could be more insightful or analytical depth could be greater.",
+      "4": "Strong role consistency: maintains impartial, analytical tone throughout. Demonstrates clear synthesis methodology and logical coherence. Effectively embodies the Aggregator role with minimal lapses.",
+      "5": "Masterful embodiment of Aggregator role: exceptional impartiality, analytical depth, and synthesis skills. Reasoning is sophisticated and persuasive. Sets benchmark for effective multi-perspective integration."
+    },
+    "KBA": {
+      "1": "Severe boundary violations: fabricates synthesis conclusions, claims insights not present in agent responses, or provides extensive external knowledge not relevant to the aggregation task. Actively misleading.",
+      "2": "Frequent boundary issues: mixes valid synthesis with hallucinations, overinterprets agent responses, or shows inconsistent awareness of what can be reasonably concluded from the debate. Requires significant verification.",
+      "3": "Minor boundary lapses: mostly accurate synthesis but may include small overinterpretations or borderline claims. Appropriately focuses on agent-provided information but could be more precise.",
+      "4": "Strict boundary adherence: synthesis is accurate and based solely on agent responses. Clearly acknowledges limitations of the debate. Rare minor inaccuracies don't undermine core reliability.",
+      "5": "Impeccable boundary management: zero synthesis hallucinations, precise focus on agent-provided information, and artful handling of knowledge gaps. Demonstrates expert-level discernment in aggregation claims."
+    },
+    "CC": {
+      "1": "Ignores major aggregation constraints or violates them flagrantly (e.g., ignores conflicting agent views, fails to provide final answer, uses forbidden reasoning methods). Aggregation actively subverts debate intent.",
+      "2": "Partially complies with aggregation requirements but misses key constraints or implements them inconsistently. Synthesis is incomplete or sloppy, compromising the final conclusion's integrity.",
+      "3": "Satisfies basic aggregation constraints but with imperfections (e.g., incomplete synthesis, suboptimal but acceptable reasoning). No critical violations of aggregation principles.",
+      "4": "Fully compliant with elegant constraint handling. All aggregation requirements are addressed thoughtfully with no notable oversights. Synthesis reflects constraint-aware design.",
+      "5": "Exceptional constraint integration: turns aggregation limitations into strengths through innovative synthesis approaches. Compliance is seamless and enhances conclusion quality beyond expectations."
+    }
+  }
+}

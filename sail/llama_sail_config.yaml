@@ -1,0 +1,55 @@
+### model
+model_name_or_path: PATH_TO_MODEL
+ref_model: PATH_TO_MODEL
+sail_reward_model: PATH_TO_REWARD_MODEL
+
+### method
+stage: sail
+do_train: true
+finetuning_type: lora
+lora_target: "q_proj,k_proj,v_proj,o_proj"
+lora_layer_range: "SELECTED_LAYERS"
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.0 
+pref_beta: 0.1
+sail_alpha: 0.5
+pref_loss: sigmoid
+quantization_bit: 4
+quantization_method: nf4
+# resize_vocab: true
+
+### dataset
+dataset: YOUR_REGISTERED_DATASET
+eval_dataset: YOUR_REGISTERED_DATASET
+template: CORRECT_TEMPLATE
+cutoff_len: 1024
+max_prompt_length: 512
+overwrite_cache: true
+preprocessing_num_workers: 16
+packing: false
+
+### output
+output_dir: PATH_TO_OUTPUT_DIR
+logging_steps: 2
+save_steps: 30
+plot_loss: true
+overwrite_output_dir: true
+
+### train
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 8
+gradient_checkpointing: true
+flash_attn: fa2
+learning_rate: 1.0e-5
+num_train_epochs: 1.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+ddp_timeout: 180000000
+
+### eval
+val_size: 0.0
+per_device_eval_batch_size: 1
+eval_strategy: steps
+eval_steps: 50000

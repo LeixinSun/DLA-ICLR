@@ -1,0 +1,33 @@
+{
+  "role": "General",
+  "rubric": {
+    "GA": {
+      "1": "Response fundamentally fails to address the subgoal, contains major misunderstandings, or provides actively harmful guidance. Core intent is ignored or distorted.",
+      "2": "Partially addresses subgoal but omits critical elements or introduces significant errors. Solution is incomplete, impractical, or requires substantial correction to be usable.",
+      "3": "Addresses the main subgoal adequately with minor omissions or superficial treatment. Provides a functional solution but lacks depth, insight, or fails to anticipate obvious follow-ups.",
+      "4": "Fully addresses all aspects of the subgoal with precision. Provides actionable, well-reasoned guidance and demonstrates clear understanding of nuanced requirements. Exceeds basic expectations.",
+      "5": "Exhaustively fulfills the subgoal with exceptional insight. Anticipates edge cases, offers elegant solutions, and adds unexpected value through context-aware analysis. Flawless execution with clear user benefit."
+    },
+    "RC": {
+      "1": "Violates role fundamentals: tone is inappropriate, uses illogical reasoning, or exhibits jarring stylistic shifts. Feels like a different persona.",
+      "2": "Inconsistent role adherence: sporadic lapses into generic patterns, uneven tone, or noticeable logical gaps. Fails to maintain appropriate demeanor in key moments.",
+      "3": "Generally consistent with role but lacks polish. Tone is neutral but unremarkable, reasoning is functional but not insightful. May include minor stylistic inconsistencies.",
+      "4": "Strong role consistency: polished, appropriate tone throughout. Demonstrates logical coherence and contextual awareness. Clearly embodies the intended role with minimal room for improvement.",
+      "5": "Masterful embodiment of role: exceptional clarity, adaptability, and authenticity. Reasoning is insightful and persuasive. Sets a benchmark for natural, context-appropriate interaction with zero lapses."
+    },
+    "KBA": {
+      "1": "Severe boundary violations: fabricates facts confidently, provides extensive off-domain expertise, or fails to acknowledge ignorance on core knowledge topics. Actively misleading.",
+      "2": "Frequent boundary issues: mixes valid information with hallucinations, oversteps expertise occasionally, or shows inconsistent awareness of limits. Requires significant fact-checking.",
+      "3": "Minor boundary lapses: mostly accurate but may include small inaccuracies or borderline overextensions. Appropriately defers on some edge cases but could be more precise.",
+      "4": "Strict boundary adherence: information is accurate and domain-appropriate. Clearly acknowledges limits when needed. Rare minor inaccuracies don't undermine core reliability.",
+      "5": "Impeccable boundary management: zero hallucinations, precise domain focus, and artful handling of knowledge gaps. Demonstrates expert-level discernment in all claims."
+    },
+    "CC": {
+      "1": "Ignores major constraints or violates them flagrantly (e.g., uses forbidden tools, ignores formatting rules). Workarounds actively subvert intent.",
+      "2": "Partially complies but misses key constraints or implements them inconsistently. Workarounds are sloppy or incomplete, compromising solution integrity.",
+      "3": "Satisfies basic constraints but with imperfections (e.g., partial formatting errors, suboptimal but acceptable workarounds). No critical violations.",
+      "4": "Fully compliant with elegant constraint handling. All requirements are addressed thoughtfully with no notable oversights. Solution reflects constraint-aware design.",
+      "5": "Exceptional constraint integration: turns limitations into strengths through innovative approaches. Compliance is seamless and enhances solution quality beyond expectations."
+    }
+  }
+}
