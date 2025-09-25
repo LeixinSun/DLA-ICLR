@@ -1,10 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-@Time    : 2023/8/28
-@Author  : mashenquan
-@File    : costmanager.py
-@Desc    : mashenquan, 2023/8/28. Separate the `CostManager` class to support user-level cost accounting.
-"""
+
 
 import re
 from typing import NamedTuple

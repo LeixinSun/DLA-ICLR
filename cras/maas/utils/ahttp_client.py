@@ -1,8 +1,5 @@
 # maas/utils/ahttp_client.py
 
-# This is a placeholder file created to meet the import requirements of token_counter.py.
-# This function will not be actually called in your scoring script,
-# but it must exist to avoid ModuleNotFoundError.
 
 async def apost(url: str, as_json: bool = False, **kwargs):
     """
